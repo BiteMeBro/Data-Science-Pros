@@ -63,7 +63,7 @@ if selected == "Data and sources":
     st.write(RQ_6.head())
 
    
-    RQ_7 = pd.read_csv("RQ_7/....csv")          #ToDO
+    RQ_7 = pd.read_csv("RQ_7/analyse_wind_enten_deutschland.csv")
     st.success("CSV found!")
     st.write(RQ_7.head())
 
@@ -122,4 +122,5 @@ if selected == "Research Question 9":
     st.title("Research Question 9")
 
     st.subheader("Does Air pollution influence the arrival dates of cranes in Niedersachsen, Germany between 2021 and 2025?")
+
 
