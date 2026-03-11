@@ -29,7 +29,7 @@ if selected == "Data and sources":
     st.title("Data and Sources")
 
    
-    RQ_1 = pd.read_csv("RQ_1/hamburg_birdCounts_pollution_2021-2025.csv")
+    RQ_1 = pd.read_csv("Streamlit/RQ_1/hamburg_birdCounts_pollution_2021-2025.csv")
     st.success("Data Research Question 1:")
     st.write(RQ_1)
 
@@ -122,5 +122,6 @@ if selected == "Research Question 9":
     st.title("Research Question 9")
 
     st.subheader("Does Air pollution influence the arrival dates of cranes in Niedersachsen, Germany between 2021 and 2025?")
+
 
 
