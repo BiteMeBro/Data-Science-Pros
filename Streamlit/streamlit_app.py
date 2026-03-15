@@ -561,8 +561,8 @@ if selected == "Research Question 5":
     st.subheader("🌍Density vs. stability of Mallard Ducks (2020-2024)")
 
     try:
-        df_hist = pd.read_csv("RQ_5/europe_ducks_march_2020_2024.csv")
-        df_density = pd.read_csv("RQ_5/europe_ducks_recent_daily.csv")
+        df_hist = pd.read_csv("Streamlit/RQ_5/europe_ducks_march_2020_2024.csv")
+        df_density = pd.read_csv("Streamlit/RQ_5/europe_ducks_recent_daily.csv")
 
         df_hist["Date"] = pd.to_datetime(df_hist["Date"])
         daily_ducks = df_hist.groupby(["Country","Date"])["DuckCount"].sum().reset_index()
