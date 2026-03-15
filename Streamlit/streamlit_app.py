@@ -87,7 +87,7 @@ if selected == "Data and sources":
 
 
     RQ_5 = pd.read_csv("Streamlit/RQ_5/europe_ducks_march_2020_2024.csv")
-    RQ_5_2 = pd.read_csv("RQ_5/europe_ducks_recent_daily.csv")
+    RQ_5_2 = pd.read_csv("Streamlit/RQ_5/europe_ducks_recent_daily.csv")
     st.success("Data used for Research Question 5:")
     st.write(RQ_5)
     st.write(RQ_5_2)
