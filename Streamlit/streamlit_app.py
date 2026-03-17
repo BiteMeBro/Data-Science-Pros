@@ -649,7 +649,7 @@ if selected == "Research Question 3":
                    The rural points, show higher diversity more often, indicated by the size of the point.
 
                    **Conclusion:** From this Data we can conclude that the bird species richness in Schleswig-Holstein in the last
-                   30 days is overall higher in rural areas than in urban areas.
+                   30 days is overall higher in rural areas than in urban areas. Especially nature reserves, where the species richness is very high, contribute greatly to the overall richness of rural areas.
                    """)
 
         st.info("""
