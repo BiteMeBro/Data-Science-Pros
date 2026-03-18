@@ -1193,6 +1193,7 @@ if selected == "Research Question 8":
         "Ringelgans": "Brant Goose",
         "Alpenstrandläufer": "Dunlin"
         "Austernfischer": "Oystercatcher"
+    }
 
     try:
         df_mig = pd.read_csv(file_path_rq8)
