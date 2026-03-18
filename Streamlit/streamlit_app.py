@@ -43,7 +43,7 @@ if selected == "Homepage":
              
 **5.** Which region of Europe has the highest density of Mallard ducks observations and how stable is the population over time in the years 2020-2024?
 
-**6.** How does bird species richness during spring change in relation to temperature between 2020 and 2025 in northern and southern Germany?          
+**6.** How does bird species richness during spring change in relation to temperature between 2020 and 2026 in northern and southern Germany?          
              
 **7.** How does wind speed affect the observation frequency of duck species?
              
@@ -1018,7 +1018,7 @@ if selected == "Research Question 5":
 
 if selected == "Research Question 6":
     st.title("Research Question 6")
-    st.subheader("How does bird species richness during spring change in relation to temperature between 2020 and 2025 in northern and southern Germany?")
+    st.subheader("How does bird species richness during spring change in relation to temperature between 2020 and 2026 in northern and southern Germany?")
     st.subheader("☀️Bird species richness vs. Temperature (North vs. South)")
 
     file_path_rq6 = "Streamlit/RQ_6/final_richness_vs_temp.csv"
