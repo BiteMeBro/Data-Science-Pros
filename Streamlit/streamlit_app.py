@@ -45,13 +45,13 @@ if selected == "Homepage":
              
 **5.** Which region of Europe has the highest density of Mallard ducks observations and how stable is the population over time in the years 2020-2024?
 
-**6.** How does bird species richness during spring change in relation to temperature between 2020 and 2026 in northern and southern Germany?          
+**6.** How does bird species richness during spring change in relation to temperature between 2020 and 2025 in northern and southern Germany?          
              
 **7.** How does wind speed affect the observation frequency of duck species?
              
 **8.** How does the observation frequency of migratory bird species differ between spring and autumn in Schleswig-Holstein in the year 2021 and 2024 and can the potential offspring of those birds be determined?
 
-**9.** Does Air pollution influence the arrival dates of cranes in Niedersachsen, Germany between 2021 and 2026?
+**9.** Did Air pollution influence the arrival dates of cranes in Niedersachsen, Germany between 2021 and 2025?
              """)
 
     st.info("💡**Use the main menu on the left to explore the contents of the Website.**")
@@ -1021,7 +1021,7 @@ if selected == "Research Question 5":
 
 if selected == "Research Question 6":
     st.title("Research Question 6")
-    st.subheader("How does bird species richness during spring change in relation to temperature between 2020 and 2026 in northern and southern Germany?")
+    st.subheader("How does bird species richness during spring change in relation to temperature between 2020 and 2025 in northern and southern Germany?")
     st.subheader("☀️Bird species richness vs. Temperature (North vs. South)")
 
     file_path_rq6 = "Streamlit/RQ_6/final_richness_vs_temp.csv"
@@ -1290,7 +1290,7 @@ if selected == "Research Question 8":
 
 if selected == "Research Question 9":
     st.title("Research Question 9")
-    st.subheader("Does Air pollution influence the arrival dates of cranes in Niedersachsen, Germany between 2021 and 2026?")
+    st.subheader("Did Air pollution influence the arrival dates of cranes in Niedersachsen, Germany between 2021 and 2025?")
     st.subheader("𓅰 𓅬 𓅭 𓅮 𓅯Migration vs. Air Pollution")
     st.subheader("Boxplot: PM10 vs. PM2.5 vs. O3 comparison")
 
