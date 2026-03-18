@@ -31,6 +31,8 @@ if selected == "Homepage":
     st.title("Dashboard")
     st.title("Research Topic: Bird observations and its influences")
     st.image("Streamlit/Cranes_Homepage.png", width=2100)
+    st.markdown("This image was generated with Google Gemini")
+    
     st.subheader("Research Questions:")
     st.write("""
 **1.** How does air Pollution affect bird observation frequency in Hamburg in the years 2021-2025 and which pollutant affects the birds the most?
@@ -51,6 +53,7 @@ if selected == "Homepage":
 
 **9.** Does Air pollution influence the arrival dates of cranes in Niedersachsen, Germany between 2021 and 2026?
              """)
+
     st.info("💡**Use the main menu on the left to explore the contents of the Website.**")
 
 
