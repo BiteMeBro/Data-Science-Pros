@@ -4,8 +4,8 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 # API key and request header for eBird authentication
-EBIRD_API_KEY = "5vhjb11idsjt"
-HEADERS = {"X-eBirdApiToken": EBIRD_API_KEY}
+EBIRD_API_KEY = ""
+HEADERS = {"": EBIRD_API_KEY}
 
 # Time range for data collection
 START_YEAR = 2020
