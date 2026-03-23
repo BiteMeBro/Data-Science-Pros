@@ -7,7 +7,7 @@ from datetime import date, timedelta, datetime
 EBIRD_API_KEY = "5vhjb11idsjt"
 HEADERS = {"X-eBirdApiToken": EBIRD_API_KEY}
 
-# Comparing North (Hamburg) vs. South (Munich)
+# Comparing North vs. South 
 REGIONS = {
     "Nord": {"code": "DE-HH", "lat": 53.55, "lon": 9.99},
     "Süd": {"code": "DE-BY", "lat": 48.13, "lon": 11.58}
