@@ -42,7 +42,7 @@ while current_date <= end_date:
     for area, info in REGIONS.items():
 
         # Step 1: Fetch daily max wind speed from Open-Meteo (no API key required)
-        # AI assistance: looked up URL parameter structure for Open-Meteo Archive API
+        #  §LLM Help: looked up URL parameter structure for Open-Meteo Archive API
         w_url = (
             f"https://archive-api.open-meteo.com/v1/archive"
             f"?latitude={info['lat']}&longitude={info['lon']}"
@@ -91,18 +91,18 @@ while current_date <= end_date:
                     })
 
         print(f"Done: {date_str} {area} | Wind: {wind} km/h")
-        time.sleep(0.1)  # AI assistance: reduced sleep to 0.1 to stay within rate limit
+        time.sleep(0.1)  #  §LLM Help: reduced sleep to 0.1 to stay within rate limit
 
     current_date += timedelta(days=1)
 
 # Convert lists to DataFrames and save as CSV files 
 df_w = pd.DataFrame(weather_records)
 df_b = pd.DataFrame(bird_records)
-#AI assistance: to find the to_csv function
+# §LLM Help: to find the to_csv function
 df_w.to_csv("wetter_wind_daten.csv", index=False)
 df_b.to_csv("enten_beobachtungen.csv", index=False)
 
-# AI assistance: merge syntax for combined dataset
+#  §LLM Help: merge syntax for combined dataset
 df_final = pd.merge(df_b, df_w, on=["date", "region"], how="left")
 df_final.to_csv("analyse_wind_enten_deutschland.csv", index=False)
 
